@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <link href="css/style.css" rel='stylesheet'>
+  <link href="page1.css" rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+  <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
+<title>competition</title>
+</head>
+<body>
+
+<div id="header">
+  <img class="rocket" src="rocket.png">
+  <h1 class="title">Stayin' Alive</h1>
+  <h2>A Competition For SMEs</h2>
+</div>
+
+<div id="part1">
+  <h1>What the competition is?</h1>
+  <div class="round">
+    <img class="timeline" src="vtl.jpg" alt="competition timeline">
+    <p>There is an Instagram Story competition for Britain SMEs, the theme is "Stayin' Alive". All UK enterprises are welcome to participate, and we are highly welcome to more small businesses and start-up businesses to show your story in Instagram.</p>
+    <p>The whole competition campaign has four stages. The first stage is a period of registration, start on 1st of March, lasting two months.</p>
+    <p>The competition has three stages, officially start on 1st of May:</p>
+     <ul style="list-style-type: disc;">
+      <li><p>The First Round, showing the "Summer Story" of your business.<br/>
+           From 01.05.2020 to 01.07.2020, Top 25% has qualified into the next round.</p>
+      <li><p>The Second Round, showing the "Consumer-Centric" story of your business.<br/>
+           From 01.07.2020 to 01.08.2020, Top 10% has qualified into the final roud.</p>
+      <li><p>The Final Round, showing the "Environmental Sustainability" of your business.<br/>
+           From 01.08.2020 to 01.09.2020, there is a winner!</p>
+     </ul>
+  </div>
+  <p>Let's demonstrate your own company story in Instagram Story.</p>
+  <p>If you haven't known how to make an Instagram Story <a href="page2.html" target="_blank" style="color: blue;">Click here.</a></p>
+</div>
+
+<div id="part2">
+  <h1>You might wondering: What your business can get?</h1>
+    <img class="prize" src="prize.png">
+</div>
+
+<div id="part3">
+  <div class="centered">
+    <form action="/action_page.php" class="container2">
+        <center><h1>Join Now</h1></center>
+        <p>Please use your instagram business account</p>
+    <hr>
+        <label for="email"><b>Email Address</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="lac"><b>Location</b></br></label>
+        <select name="location">
+          <option value="Location">Select Location</option>
+          <option value="Scotland">Scotland</option>
+          <option value="Northern Ireland">Northern Ireland</option>
+          <option value="Walse">Wales</option>
+          <option value="England">England</option>
+        </select>
+
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+        <button type="submit" class="registerbtn"><a href="#ex1" rel="modal:open">Register</a></button>
+        <p><a href="#">Any question please contact DeeGees Group</a></p>
+
+        <!-- Modal HTML embedded directly into document -->
+        <div id="ex1" class="modal">
+          <p>You have qualified for the competition</br>
+          <hr>
+          <a class="story" href="page2.html" traget="_blank">Let's create your story!</a>
+          </p>
+        </div>
+        <!-- Link to open the modal -->
+    </form>
+  </div>
+ </div>
+
+</body>
+</html>

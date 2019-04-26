@@ -1,0 +1,147 @@
+h2{
+  text-align: center;
+  margin-left: 200px;
+  color: white;
+}
+.title{
+  text-align: center;
+  padding-top: 60px;
+  padding-left: 190px;
+}
+#header {
+  display: block;
+  background-image: url(bg.jpg);
+  /*background-color: #8DBDAF;*/
+  color: white;
+  weight: 100%;
+  height: 200px;
+  text-align: left;
+}
+.rocket{
+  width:200px;
+  height:200px;
+  float: right;
+}
+/* introduction */
+#part1{
+  /*background-color: #ffc34d;*/
+  width: 100%;
+  height: auto;
+}
+#part1 h1{
+  background-color: powderblue;
+}
+#part1 p{
+  margin-left: 25px;
+}
+.round{
+  clear: both;
+}
+.timeline{
+  width: 300px;
+  height: 380px;
+  float: right;
+}
+
+/* benefits */
+#part2{
+  width: 100%;
+  height:auto;
+}
+#part2 h1{
+  background-color: powderblue;
+}
+.prize{
+  width: 100%;
+  height: 400px;
+}
+
+.car{
+  weight:300px;
+  height:200px;
+}
+
+
+/* 加入比赛 */
+#part3 {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Control the height of the image */
+  /*background-color: #ffb3b3;*/
+  height: 500px;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+* {box-sizing: border-box;}
+
+/* Add padding to containers */
+.img.container2 {
+
+  position: relative;
+  text-align: center;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+select{
+  width: 100%;
+  font-size: 30px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: white;
+}
+
+.story{
+  color: blue;
+}
